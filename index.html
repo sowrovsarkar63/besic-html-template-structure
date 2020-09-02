@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My website</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Header navigation section -->
+<nav>
+    <ul  class="topnav" id="DropdownMenu">
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#News">News</a></li>
+            <li><a href="#Contact">Contact</a></li>
+            <li><a href="#About">About</a></li>
+            <li class="topnav-right"><a href="#Signup">Sign Up</a></li>
+            <li  class="topnav-right"><a href="#Signin">Sign In</a></li>
+            <!-- Drop down hambarger menu -->
+            <li class="dropdownIcon"><a href="javascript:void(0)" onclick="dropdownmenu()">&#9776;
+            </a></li>
+     </ul>
+</nav>
+
+<div class="container" id="section-1-gradient">
+    <div class="row">
+
+        <div class="col-6 container-padding">
+            <div class="leftside-col">
+                <h1 class="learge">Crazy Radness</h1>
+                <h1 class="learge">Made for developers</h1>
+            </div>
+            <form>
+                <div class="leftside-col">
+                    <h2>Username</h2>
+                    <input class="inputbox" name="username" type="text" placeholder="Usernmae">
+                    <h2>Password</h2>
+                    <input class="inputbox" name="password" type="text" placeholder="Password">
+                </div>
+
+            </form>
+        </div>
+
+        <div class="col-6" container-padding>
+          <div class="rightside-col">
+             <div class="video-contaier">
+                <iframe width="450" height="300" src="https://www.youtube.com/embed/d4Zb4f4rnL4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+               </div>
+            </div>
+
+        </div>
+
+
+    </div>
+    
+</div>
+<header>
+
+    <h1 class="section2Header">The Standards of Awesomeness</h1>
+
+</header>
+<div class="container">
+    <div class="row">
+        <div class="col-4">
+            <div class="box">
+               <div>
+                   <img  style="width: 100px ;height:100px;" src="img/learntechnow.jpg" alt="icone">
+               </div>
+               <label class="label">Chat with Me</label>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, incidunt sequi repudiandae nobis saepe deserunt cumque quo quibusdam assumenda magni.</p>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="box">
+               <div>
+                   <img  style="width: 100px ;height:100px;" src="img/learntechnow.jpg" alt="icone">
+               </div>
+               <label class="label">Learn to Code</label>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, incidunt sequi repudiandae nobis saepe deserunt cumque quo quibusdam assumenda magni.</p>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="box">
+               <div>
+                   <img  style="width: 100px ;height:100px;" src="img/learntechnow.jpg" alt="icone">
+               </div>
+               <label class="label">Build Project</label>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, incidunt sequi repudiandae nobis saepe deserunt cumque quo quibusdam assumenda magni.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-12">
+        <button class="btn-learnmore">Learn More</button>
+    </div>
+</div>
+
+<hr>
+
+<div class="container">
+    <div class="row">
+    <div class="col-7">
+        
+        <article>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos recusandae quibusdam aperiam fuga modi repudiandae porro facere rem expedita pariatur odit ab delectus, dolorem corporis temporibus fugit officia impedit ullam totam quas! Voluptatem hic necessitatibus ullam et doloremque eius commodi.</p>
+        </article>
+    </div>
+ 
+    <div class="col-5">
+        <div class="slopIcon">
+        <img src="img/learntechpodcast.jpg" alt="">
+     </div>
+    </div>
+    </div>
+</div>
+
+
+<footer class="footer-style">
+    <div class="row">
+        <div class="col-3">
+            <h1>Company</h1>
+            <ul>
+                <li>About</li>
+                <li>Blog</li>
+                <li>Careers</li>
+            </ul>
+
+        </div>
+        <div class="col-3">
+            <h1>Company</h1>
+            <ul>
+                <li>About</li>
+                <li>Blog</li>
+                <li>Careers</li>
+            </ul>
+
+        </div>
+        <div class="col-3">
+            <h1>Company</h1>
+            <ul>
+                <li>About</li>
+                <li>Blog</li>
+                <li>Careers</li>
+            </ul>
+
+        </div>
+        <div class="col-3">
+            <h1>Company</h1>
+            <ul>
+                <li>About</li>
+                <li>Blog</li>
+                <li>Careers</li>
+            </ul>
+
+        </div>
+
+    </div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ===============================================================================================================================================================================================
+========================================================
+========================================================================== -->
+
+<script>
+    function dropdownmenu(){
+    var menu = document.getElementById("DropdownMenu");
+
+    if (menu.className ==="topnav") {
+        menu.className += " responsive";
+        // cnage top nav to responsive
+    }else{
+        menu.className = "topnav";
+    }
+
+}
+</script>
+</body>
+</html>
